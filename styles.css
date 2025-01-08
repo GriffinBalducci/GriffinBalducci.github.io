@@ -87,3 +87,21 @@ a:active {
 	background-color: transparent;
 	text-decoration: none;
 }
+
+.github-button {
+	background-color: #007BFF;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	transition: background-color 0.3s, transform 0.2s;
+}
+
+.github-button:hover {
+	background-color: #DCDCDC;
+	transform: scale(1.05);
+}
+
+.github-button:active {
+	background-color: transparent;
+}
